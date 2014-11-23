@@ -17,7 +17,7 @@ Below is a sample set of commands:
 
 ```bash
 cd yourProjectDir
-bower install angular-material --save
+bower install angular-google-endpoints --save
 ```
 
 ### Usage

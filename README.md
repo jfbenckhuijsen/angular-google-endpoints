@@ -67,9 +67,10 @@ YourAppServices.factory('YourApiService', [ '$googleEndpoints', "$q", function($
 ```
 
 The following changes have to be made to this code:
-1. You need to provide your own client ID as registered in the Google Developer console in the Credentials section. This only needs to be made once.
-2. In case your API requires authentication based on OAuth2, call this method to enable authentication.
-3. Creates a new API Client. You need to provide the name of your API, its version and optionally the API root. The API root is in the form "'//[HOST]:[PORT]/_ah/api'. If omitted, this defaults to the host the web application is running on.
+
+1.  You need to provide your own client ID as registered in the Google Developer console in the Credentials section. This only needs to be made once.
+2.  In case your API requires authentication based on OAuth2, call this method to enable authentication.
+3.  Creates a new API Client. You need to provide the name of your API, its version and optionally the API root. The API root is in the form "'//[HOST]:[PORT]/_ah/api'. If omitted, this defaults to the host the web application is running on.
 
 ### Using the created Google Endpoint client
 

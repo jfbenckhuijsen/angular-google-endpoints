@@ -37,7 +37,7 @@ Now that you have installed [locally] the Angular libraries, simply include the 
     </div>
 
     <script src="/bower_components/angular/angular.js"></script>
-    <script src="/bower_components/angular-google-endpoints/angular-google-endpoints.js"></script>
+    <script src="/bower_components/angular-google-endpoints/angular-google-endpoints-min.js"></script>
     <script>
 
         // Include app dependency on ngGoogleEndpoints

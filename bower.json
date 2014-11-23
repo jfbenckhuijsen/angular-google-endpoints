@@ -1,7 +1,7 @@
 {
   "name": "angular-google-endpoints",
   "main": "angular-google-endpoints.js",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "authors": [
     "jeroen.benckhuijsen@salvesdevelopment.nl <jeroen.benckhuijsen@salvesdevelopment.nl>"
   ],

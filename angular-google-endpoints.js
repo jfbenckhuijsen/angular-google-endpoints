@@ -174,7 +174,7 @@ function google_endpoints_init() {
 			var api = {
 				apiName: apiName,
 				apiVersion: apiVersion,
-				apiRoot: (typeof apiRoot == "undefined" ? apiRoot: '//' + window.location.host + '/_ah/api'),
+				apiRoot: (typeof apiRoot == "undefined") ? '//' + window.location.host + '/_ah/api' : apiRoot,
 				defered: $q.defer(),
 				service: {
 					loaded: false,
